@@ -1,0 +1,80 @@
+
+// ---
+// Base Site Styles
+// ---
+
+// Keep it mobile first, yo! Read this:
+// http://www.abookapart.com/products/mobile-first
+// Actually, just buy all of those books.
+
+// Anyways, here's how I like to structure my content styles:
+
+
+// Border box all the things:
+
+* {
+	 box-sizing: border-box;
+}
+html {
+	line-height: 1.15;
+}
+body {
+	margin: 0;
+	padding-bottom: 5em;
+	background-color: $light-grey;
+	color: $text-color;
+	font-family: 'Nunito', sans-serif;
+}
+// ---
+// General Selectors
+// ---
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.5em;
+}
+
+
+// ---
+// Header
+// ---
+.logo {
+	margin-bottom: 1.5em;
+}
+
+
+
+
+// ---
+// Main Site Content
+// ---
+
+
+
+// ---
+// Media
+// ---
+
+
+
+
+// ---
+// Footer
+// ---
+
+
+
+
+// ---
+// Misc Utilities
+// ---
+
+

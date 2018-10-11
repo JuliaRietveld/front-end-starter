@@ -1,0 +1,40 @@
+
+// ---
+// Nav
+// ---
+// I like this toggle menu a lot: https://codepen.io/bradfrost/pen/sHvaz
+.main-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main-nav li {
+	text-align: center;
+	margin-bottom: 0.75em;
+	display: block;
+}
+.main-nav li a {
+	color: $dark-blue;
+}
+// --
+// Small Screens
+// --
+
+// Base mobile nav styles here.
+
+// Using the rotate mixin!
+
+
+// Make the list horizontal on bigger screens
+
+
+// --
+// Large Screens
+// --
+
+// A breakpoint for the large screen nav.
+// .nav {
+//		@include bp(med) {
+
+// 		}
+// }
